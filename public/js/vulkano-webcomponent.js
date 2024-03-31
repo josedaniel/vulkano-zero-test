@@ -592,10 +592,10 @@
     };
     constructor() {
       super();
-      this.name = "native webcomponents";
+      this.name = "Jes\xFAs David";
     }
     render() {
-      return x`<p>Bonus! You can use vulkano-webcomponent to have ${this.name}!</p>`;
+      return x`<p>Buenos  días ${this.name}!</p>`;
     }
   };
   customElements.define("vulkano-webcomponent", VulkanoWebcomponent);
